@@ -1,15 +1,35 @@
 body {
-  font-family: 'roboto';
+  font-family: roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #212121;
 }
-.h2 {
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.card-bcg {
+  background-color: #ffffff;
+}
+.portfolio-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
 }
-.p {
-  font-weight: 400;
+.current {
+  color: #2196f3;
+}
+.text {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
@@ -46,12 +66,28 @@ body {
   letter-spacing: 0.02em;
 }
 .nav-btn {
-  height: 25px;
+  font-family: inherit;
+  color: #212121;
+  background: #f5f4fa;
+  cursor: pointer;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.63px;
+  line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.foot-bcg {
+  background: #2f303a;
+}
+.foot-tel {
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+.adress {
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
 }
 .nav-btn:focus,
 .nav-btn:hover {
